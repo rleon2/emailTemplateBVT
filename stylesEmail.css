@@ -1,0 +1,60 @@
+html, body{
+    height: 100%;
+    width: 100vw;
+    
+}
+#test{
+    width: 100%;
+}
+
+#left-column{
+    background-color: darkgrey;
+    height: 100%;
+    background-image: linear-gradient(pink, teal);
+}
+
+#middle-column{
+    background-color: gainsboro;
+    height: 100%;
+    background-image: linear-gradient(teal, pink);
+}
+#right-column{
+    background-color: pink;
+    height: 100%;
+}
+
+#compose-button{
+    margin: 35px;
+    margin-left: 60px;
+}
+#compose-button:hover{
+    color: salmon;
+}
+
+.headings{
+    margin: 20px;
+}
+
+.card-title{
+    font-size: large;
+}
+
+.email-box:hover{
+    background-color: pink;
+}
+
+#subject-line{
+    margin-bottom: 50px;
+}
+#messg-box{
+    margin-top: 30px;
+}
+
+#profile{
+    margin-top: 30px;
+}
+
+#messg-box{
+    
+    bottom: 0;
+}
