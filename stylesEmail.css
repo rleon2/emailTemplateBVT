@@ -1,60 +1,92 @@
-html, body{
-    height: 100%;
-    width: 100vw;
+.btn-lg{
+    background-color: green;
+    color: white;
+}
+.card{
+    box-shadow: 2px 3px;
+}
+.card-subtitle{
+    color: black;
+}
+.card-title{
+    font-size: large;
     
 }
-#test{
-    width: 100%;
+.card-title:hover{
+    color: black;
 }
-
-#left-column{
-    background-color: darkgrey;
-    height: 100%;
-    background-image: linear-gradient(pink, teal);
-}
-
-#middle-column{
-    background-color: gainsboro;
-    height: 100%;
-    background-image: linear-gradient(teal, pink);
-}
-#right-column{
-    background-color: pink;
-    height: 100%;
-}
-
 #compose-button{
     margin: 35px;
     margin-left: 60px;
 }
 #compose-button:hover{
-    color: salmon;
+    
+    cursor:pointer;
 }
+.email-box:hover{
+    background-color: rgb(162, 202, 162);
+    color: black;
+    border: black ridge;
 
+}
+#first{
+    background-color: rgb(162, 202, 162);
+    
+}
+#greeting{
+    color:green;
+    font-size: 20px;
+}
 .headings{
     margin: 20px;
 }
-
-.card-title{
-    font-size: large;
+#left-column{
+    background-color: lightgray;
+    height: 100%;  
 }
-
-.email-box:hover{
-    background-color: pink;
-}
-
-#subject-line{
-    margin-bottom: 50px;
-}
-#messg-box{
+#messg-box{   
+    bottom: 0;
+    margin-top: 40px;
     margin-top: 30px;
 }
-
+#middle-column{
+    background-color: grey;
+    height: 100%;
+}
 #profile{
     margin-top: 30px;
 }
-
-#messg-box{
-    
-    bottom: 0;
+#right-column{
+    background-color: rgb(162, 202, 162);
+    height: 100%;
 }
+.sidebar-nav{
+    
+    width: 250px;
+    list-style: none;
+}
+.sidebar-nav li a{
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color: green;
+    font-size: larger;
+}
+.sidebar-nav li a:hover{
+    color: white;
+}
+#subject-line{
+    margin-bottom: 50px;
+}
+#test{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+

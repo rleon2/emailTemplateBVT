@@ -16,28 +16,49 @@
                     <div class="bg"></div>
                         <div class="row" id="profile">
                             <div class="text-center"><img src="https://www.eguardtech.com/wp-content/uploads/2018/08/Network-Profile.png" style="width: 50px; height: 50px; border-radius: 25px;"></div>
-                            <div class="row text-center">Welcome,User!</div>
+                            <div class="row text-center"><p id="greeting">Welcome,User!</p></div>
                         </div>
-                        <div class="row text-center" id="compose-button"><button class="btn-lg btn-info text-center" >COMPOSE</button></div>
+                        <div class="row text-center" id="compose-button"><button class="btn-lg btn-success text-center" >COMPOSE</button></div>
                         <div class="headings">
-                        <div class="row"><p>Inbox (1)</p></div>
-                        <div class="row"><p>Tagged</p></div>
-                        <div class="row"><p>Important</p></div>
-                        <div class="row"><p>Sent Mail</p></div>
-                        <div class="row"><p>Drafts</p></div>
-                        <div class="row"><p>Trash</p></div>
+                        
+                        <div class="collapse navbar-collapse">
+                            <ul class="sidebar-nav">
+                                
+                                <li>
+                                    <a href="#">Inbox (3)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tagged</a>
+                                </li>
+                                <li>
+                                    <a href="#">Important</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sent Mail</a>
+                                </li>
+                                <li>
+                                    <a href="#">Drafts</a>
+                                </li>
+                                <li>
+                                    <a href="#">Trash</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                         </div>
                 </div>
 
                 <div class="col-lg-4" id="middle-column">
-                    <div class="row">
+                    <div class="row" style="margin-top: 20px;">
                         <form class="form-inline text-center" action="/action_page.php">
                             <span></i><input class="form-control mr-sm-2" type="text" placeholder="Search"><i class="fa fa-search" aria-hidden="true"></i></span>
                           </form>
                     </div>
 <!--Email Box Message #1-->
-                    <div class="row">
-                        <div class="card col-lg-12 email-box" style="margin-top: 20px;">
+                    <div class="row" id="first">
+                        <div class="card col-lg-12 email-box">
                             <div class="card-body">
                               <h5>Today 9:00 PM</h5>
                               <h3 class="card-title">I Need Your Help</h3>
@@ -49,7 +70,7 @@
                     </div>
 <!--Email Box Message #2-->
                     <div class="row">
-                        <div class="card col-lg-12 email-box" style="margin-top: 20px;">
+                        <div class="card col-lg-12 email-box">
                             <div class="card-body">
                               <h5>Yesterday 7:00 PM</h5>
                               <h3 class="card-title">New Products Announced</h3>
@@ -61,7 +82,7 @@
                     </div>
 <!--Email Box Message #3-->
                     <div class="row">
-                        <div class="card col-lg-12 email-box" style="margin-top: 20px;">
+                        <div class="card col-lg-12 email-box">
                             <div class="card-body">
                               <h5>8/13 10:00 PM</h5>
                               <h3 class="card-title">Your Lamborghini Diablo is now ready!</h3>
@@ -82,7 +103,7 @@
                             </div>
                         <div class="col-lg-12">
                             <div  id= "subject-line" class="row">
-                                <div class="col-sm-9"><h2>Subject</h2></div>
+                                <div class="col-sm-9"><h2>I Need Your Help</h2></div>
                                 <div class="col-sm-1"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
                                 <div class="col-sm-1"><i class="fa fa-trash-o" aria-hidden="true"></i></div>
                                 <div class="col-sm-1"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
@@ -94,17 +115,20 @@
                                 <p>Please Reply with your SSN# and Credit Card Number.</p>
                                 <p style="margin-top: 50px;">Kind Regards.</p>
                         </div>      
-                                <div class="col-lg-12">
                                
-                                </div> 
                             </div>
                         <div class="col-lg-12">
-                            <div class="row" id="messg-box">
+                            <div class="row" id="messg-box" style="margin-top: 200px;">
                                     <div class="col-lg-12">
                                 <div class="form-group col-lg-12">
                                     <label for="exampleFormControlTextarea1">Reply:</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Please Enter text here:"></textarea>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Please Enter text here:"></textarea>
                                   </div>
+                                <div class="col-sm-1">
+                                    <div class="row">
+                                        <button type="button" class="btn btn-secondary">Send</button>
+                                    </div>
+                                </div>
                                   </div>
                             </div>
                         </div>
