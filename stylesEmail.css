@@ -27,6 +27,7 @@
     background-color: rgb(162, 202, 162);
     color: black;
     border: black ridge;
+    cursor:pointer;
 
 }
 #first{
@@ -60,9 +61,11 @@
     background-color: rgb(162, 202, 162);
     height: 100%;
 }
+#send-button{
+    background-color: white;
+    color: green;
+}
 .sidebar-nav{
-    
-    width: 250px;
     list-style: none;
 }
 .sidebar-nav li a{
