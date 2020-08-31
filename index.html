@@ -19,43 +19,46 @@
                             <div class="row text-center"><p id="greeting">Welcome,User!</p></div>
                         </div>
                         <div class="row text-center" id="compose-button"><button class="btn-lg btn-success text-center" >COMPOSE</button></div>
-                        <div class="headings">
-                        
-                        <nav class="navbar navbar-expand-lg navbar-ligth bg-light navbar-toggleable-md" id="navbar">
-                            <div class="container-fluid visible-desktop">
-                                <ul class="sidebar-nav">
-                                    
-                                    <li>
-                                        <a href="#">Inbox (3)</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Tagged</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Important</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Sent Mail</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Drafts</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Trash</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Contact</a>
-                                    </li>
+                        <nav class="navbar">
+                            <div class="container-fluid container-one">
+                              <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                  <span class="icon-bar" style="background-color: black;"></span>
+                                  <span class="icon-bar" style="background-color: black;"></span>
+                                  <span class="icon-bar" style="background-color: black;"></span>                        
+                                </button>
+                              </div>
+                              <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul class="nav navbar-nav">
+                                <div class="row">
+                                    <li class="active"><a href="#">Inbox(3)</a></li>
+                                </div>
+                                <div class="row">
+                                    <li class="active"><a href="#">Tagged</a></li>
+                                </div>
+                                <div class="row">
+                                    <li class="active"><a href="#">Important</a></li>
+                                </div>
+                                <div class="row">
+                                    <li class="active"><a href="#">Sent Mail</a></li>
+                                </div>
+                                <div class="row">
+                                    <li class="active"><a href="#">Drafts</a></li>
+                                </div>
+                                <div class="row">
+                                    <li class="active"><a href="#">Trash</a></li>
+                                </div>
                                 </ul>
+                                
+                              </div>
                             </div>
-                        </nav>
-                        </div>
+                          </nav> 
                 </div>
 
                 <div class="col-lg-4" id="middle-column">
                     <div class="row" style="margin-top: 20px;">
-                        <form class="form-inline text-center" action="/action_page.php">
-                            <span></i><input class="form-control mr-sm-2" type="text" placeholder="Search"><i class="fa fa-search" aria-hidden="true"></i></span>
+                        <form class="form-inline text-center">
+                            <span><i class="fa fa-search" style="margin-right: 10px;"aria-hidden="true"></i><input class="form-control mr-sm-2" type="text" placeholder="Search"></span>
                           </form>
                     </div>
 <!--Email Box Message #1-->
@@ -103,14 +106,24 @@
                                 <h6>To: raulleon@email.com</h6>
                                 <h6>From: notascam@email.com</h6>
                             </div>
-                        <div class="col-lg-12">
-                            <div  id= "subject-line" class="row">
-                                <div class="col-sm-9"><h2>I Need Your Help</h2></div>
-                                <div class="col-sm-1"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
-                                <div class="col-sm-1"><i class="fa fa-trash-o" aria-hidden="true"></i></div>
-                                <div class="col-sm-1"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
-                                </div>
+                        
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h2>I Need Your Help</h2>
                             </div>
+                            <div class="col-lg-3">
+                                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>        
+                            
+                            
+                                
+                                    
+                         </div>
                         <div class="col-lg-12">
                             <div class="row">
                                 <p>I have too much money and need to give some away. With just $20 dollars I can transfer millions of dollars to your bank account.</p>
@@ -119,10 +132,10 @@
                         </div>      
                                
                             </div>
-                        <div class="col-lg-12">
+                        <div class="col-lg-9">
                             <div class="row" id="messg-box" style="margin-top: 200px;">
-                                    <div class="col-lg-12">
-                                <div class="form-group col-lg-12">
+                                    
+                                <div class="form-group>
                                     <label for="exampleFormControlTextarea1">Reply:</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Please Enter text here:"></textarea>
                                   </div>
@@ -131,7 +144,7 @@
                                         <button type="button" class="btn btn-success" id="send-button">Send</button>
                                     </div>
                                 </div>
-                                  </div>
+                                  
                             </div>
                         </div>
                         </div>

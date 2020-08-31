@@ -1,6 +1,16 @@
+a{
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
 .btn-lg{
     background-color: green;
     color: white;
+    margin-bottom: 100px;
 }
 .card{
     box-shadow: 2px 3px;
@@ -15,13 +25,15 @@
 .card-title:hover{
     color: black;
 }
-#compose-button{
-    margin: 35px;
-    margin-left: 60px;
-}
+
 #compose-button:hover{
     
     cursor:pointer;
+}
+.container-one{
+    display: flex;
+    justify-content: center;
+    
 }
 .email-box:hover{
     background-color: rgb(162, 202, 162);
@@ -36,14 +48,18 @@
 }
 #greeting{
     color:green;
-    font-size: 20px;
+    
 }
 .headings{
     margin: 20px;
 }
+li{
+    margin: 10px;
+}
 #left-column{
-    background-color: lightgray;
-    height: 100%;  
+    background-color: rgb(206, 221, 206);
+    height: 100%;
+    
 }
 #messg-box{   
     bottom: 0;
@@ -54,6 +70,14 @@
     background-color: grey;
     height: 100%;
 }
+.nav-link a{
+    text-decoration: none;
+}
+.nav-link a:hover{
+    text-decoration: none;
+    color: white;
+}
+
 #profile{
     margin-top: 30px;
 }
@@ -65,27 +89,31 @@
     background-color: white;
     color: green;
 }
-.sidebar-nav{
-    list-style: none;
-}
-.sidebar-nav li a{
-    padding: 5px;
-    display: block;
-    text-decoration: none;
-    color: green;
-    font-size: larger;
-}
-.sidebar-nav li a:hover{
-    color: white;
-}
 #subject-line{
     margin-bottom: 50px;
 }
 #test{
     width: 100%;
 }
+ul{
+    list-style-type: none;
+}
+.wrapper{
+    text-align: center;
+}
 
-
+@media (max-width: 400px) {
+    .container-one{
+        display: flex;
+        justify-content: left;
+    }
+    .btn-lg{
+        margin: 0;
+    }
+    #left-column {
+      height: 100px;
+    }
+  }
 
 
 
